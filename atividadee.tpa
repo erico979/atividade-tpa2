@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace atividade_tpa
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string x, a, c, d, e;
+            Console.WriteLine("qual o nome do time de futebol");
+            x = Console.ReadLine();
+            Console.WriteLine("qual o nome do time de futebol");
+            a = Console.ReadLine();
+            Console.WriteLine("qual o nome do time de futebol");
+            c = Console.ReadLine();
+            Console.WriteLine("qual o nome do time de futebol");
+            d = Console.ReadLine();
+            Console.WriteLine("qual o nome do time de futebol");
+            e = Console.ReadLine();
+            Console.WriteLine("quantos pontos {0} time fez",x);
+            Console.WriteLine("quantos pontos {0} time fez", a);
+            Console.WriteLine("quantos pontos {0} time fez", c);
+            Console.WriteLine("quantos pontos {0} time fez", d);
+            Console.WriteLine("quantos pontos {0} time fez", e);
+
+        }
+    }
+}
